@@ -1,4 +1,4 @@
-import 'package:vntu1/core/base_operation.dart';
+import '../../core/base_operation.dart';
 
 class DivOperation extends BaseOperation {
   DivOperation() : super("/");

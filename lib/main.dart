@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vntu1/main/expression_handler.dart';
-import 'package:vntu1/main/input_parser.dart';
+
+import 'main/expression_handler.dart';
+import 'main/input_parser.dart';
 
 void main() {
   runApp(MyApp());

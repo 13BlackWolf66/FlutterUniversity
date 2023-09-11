@@ -1,10 +1,10 @@
-import 'package:vntu1/core/base_operation.dart';
-import 'package:vntu1/core/calculator_exception.dart';
-import 'package:vntu1/main/expression_dto.dart';
-import 'package:vntu1/main/operations/add_operation.dart';
-import 'package:vntu1/main/operations/div_operation.dart';
-import 'package:vntu1/main/operations/mul_operation.dart';
-import 'package:vntu1/main/operations/sub_operation.dart';
+import '../core/base_operation.dart';
+import '../core/calculator_exception.dart';
+import 'expression_dto.dart';
+import 'operations/add_operation.dart';
+import 'operations/div_operation.dart';
+import 'operations/mul_operation.dart';
+import 'operations/sub_operation.dart';
 
 class InputParser {
   ExpressionDto parse(String input) {
